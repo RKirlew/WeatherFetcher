@@ -3,3 +3,24 @@
   min-height: 100vh;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
+.app-warm{
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+}
+.test{
+  padding-top: 10px;
+  background-color: white;
+ border-radius: 10%;
+}
+.app-cold{
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.app-neutral{
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
