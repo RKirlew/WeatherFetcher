@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Forecasts=({mainCond,cond,location,maxTemp,minTemp,feelsLike,image})=>{
+const Forecasts=({mainCond,cond,location,maxTemp,minTemp,feelsLike,image,actTemp,country})=>{
     return(
         <div className='test'>
-            <h1>{location}</h1>
+            <h1>{location},{country}</h1>
+            <h1>{actTemp} ° C</h1>
             <img className src={image} alt=""/>
             <h1>{mainCond}</h1>
             <p>Condition description:{cond}</p>
